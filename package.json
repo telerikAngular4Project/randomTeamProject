@@ -1,0 +1,40 @@
+{
+  "name": "deliverance",
+  "version": "1.0.0",
+  "description": "Team Project For Telerik Academy Course: SPA applications with Angular 4",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerikAngular4Project/randomTeamProject.git"
+  },
+  "keywords": [
+    "mean",
+    "node",
+    "express",
+    "angular",
+    "mongodb",
+    "SPA",
+    "back-end",
+    "front-end"
+  ],
+  "author": "me & and 2 randoms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telerikAngular4Project/randomTeamProject/issues"
+  },
+  "homepage": "https://github.com/telerikAngular4Project/randomTeamProject#readme"
+}
