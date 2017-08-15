@@ -2,80 +2,75 @@
   ## Web Apps With Angular4 / Telerik Academy Course Project
 # These are old requirements --- they might be changed
 
+# Course Project
+_Web Applications with Angular_
+
+This document describes the **course project assignment** for the [Single-page Applications with Angular](telerikacademy.com/courses/courses/Details/441) at Telerik Academy.
+
 ## Project Description
 
-Design and implement a **Single-page application** using [Angular 2](https://angular.io/)
-
-It can be a discussion forum, blog system, e-commerce site, online gaming site, social network, or any other web application by your choice.
+Design and implement a **Single-page web application** by your choice, using [Angular](https://angular.io/)
 
 The application should have a:
 
-- **public part** (accessible without authentication)
-- **private part** (available for registered users)
-
 ### Public Part
 
-The **public part** of your projects should be **visible without authentication**.
-This public part could be the application start page, application statistics, the user login and user registration forms, as well as the public data of the users, e.g. the blog posts in a blog system, the public offers in a bid system, the products in an e-commerce system, etc.
+The **public part** of your projects should be **visible without authentication**. This public part could be the application start page, application statistics, the user login and user registration forms.
 
 ### Private Part (Registered users area)
 
-**Registered users** should have personal area in the web application accessible after **successful login**.
-This area could hold for example the user's profiles management functionality, the user's offers in a bid system, the user's posts in a blog system, the user's photos in a photo sharing system, the user's contacts in a social network, etc.
+**Registered users** should have personal area in the web application accessible after **successful login**. This area could hold for example the user's profiles management functionality or the user's posts in a blog system.
 
 ## Technical Requirements
 
-Your Web application should use the following technologies, frameworks and development techniques:
+Your Web application should include the following:
 
-- At least **8 different public dynamic web pages**
-- At least **7 different private (authenticated) dynamic web pages**
-- At least **10 different** partial components
-  - Partial, as not a whole page
-- Responsive UI with good UX
-- Most of the data should be loaded from a web server
-  - You can use Firebase, parse.com, Telerik Back-end Services, or any other
-  - You can use your own server written on Node.js, ASP.NET, or any other framework
-- Load all data using services
-- Use animations
-- Create at least **3 different pipes**
-- Create at least **3 different directives**
-- Setup and use tslint
-- Use **TypeScript**
-- Use the **best practices** for software development and Object-oriented design
-- Use Dependency Injection
+- Create several **public dynamic web pages** and use them.
+- Create several **private (authenticated) dynamic web pages** and use them.
+- Create several **different pipes** and use them.
+- Create several **different directives** and use them.
+- Create several **modules** and use them in the **routing**.
+- All of the data should be loaded from a `web server` using **services**.
+  - You can either use `Firebase`, `Kinvey` or any other back-end service.
+  - Or you can use your own server written in `Node.js`, `ASP.NET WebAPI` or any other technology.
+- Unit test at **least 2 components**.
+- Integration test at **least 1 module**.
+- Implement responsive UI using Bootstrap 3 or 4, or Materialize.
+- Your project should pass the default TS linting configuration without any errors.
+- You can use Angular CLI, Webpack, SystemJS or any other module loader/bundler.
+- Your application should compile, work and produce an adequate result.
+    - Applications that do not adhere to these requirements, will be severely penalized or not accepted at all.
 
 ##  General Requirements
 
 - Use Git
-  - Github, Gitlab, Bitbucket, or other
+  - Github, Gitlab, Bitbucket, or other online repository.
+  - Each team member must have meaningful commits with adequate commit messages.
 - Brief **documentation** of the project and the project architecture
   - As `README.md` file at the root of the github repository
 
-### Deliverables
+### Additional Requirements (Bonus points and real world skills)
 
-- Record a short video showcasing your application
-  - ~1-2 minutes, just show the interesting features
-  - Do not record register/login functionality, this is not interesting...
+- Use `git flow` or other **branching** workflow.
+- Build your application using an **agile project managment tool/system**
+    - Simple ones are Trello, ZenHub, GitHub Issues
+    - More advanced ones are Jira, MS Team Services
 - Upload your application in the cloud
   - MS Azure, HerokuCloud, Amazon, all are fine
-- Register your application at [Our Showcase System](http://best.telerikacademy.com)
-  - Link to the live application
-  - Link to the video
-  - Link to the github repository
+- Consume moderate quantities of pizza and bira.
 
 ### Public Project Defense
 
-Each team will have to make a **public defense** of its work in front of a trainer (for about 30 minutes), in which each of the team members will answer to the trainer's questions individually.
+Each team will have to make a **public defense** of its work in front of a trainer (for about 30 minutes), in which each of the team members will answer to the trainer's questions individually, **one at a time**. If a trainer is suspicious about a team member's contribution to the project, additional tasks and questions may be given. Team members that have attended the defense, but have no significant contribution to the project, nor any significant knowledge of Angular and the technologies around it, will not be awarded the full amount of points, if any.
 
 The public defense includes:
 
 - Live **demonstration** of the developed web application (prepare sample data).
-- Explain application structure and its back-end and front-end **source code**
+- Explain application structure and its **source code**
 - Show the **commit logs** in the source control repository to prove a contribution from all team members.
-- May include a simple task for each team member
-  - The task must be implemented immediately
+- Answer to conceptual technologies questions, some of which can be misleading.
 
 ### Give Feedback about Your Teammates
 
-You will be invited to **provide feedback** about all your teammates, their attitude to this project, their technical skills, their team working skills, their contribution to the project, etc.
-The feedback is important part of the project evaluation so **take it seriously** and be honest.
+You will be invited to **provide feedback** about all your teammates, their attitude to this project, their technical skills, their team working skills, their contribution to the project, etc. The feedback is a mandatory, important part of the project evaluation, so **take it seriously**. You will be provided a template, by which to write your review.
+
