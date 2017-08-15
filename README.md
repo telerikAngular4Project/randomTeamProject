@@ -1,6 +1,5 @@
 # theCheapBears
   ## Web Apps With Angular4 / Telerik Academy Course Project
-# These are old requirements --- they might be changed
 
 # Course Project
 _Web Applications with Angular_
