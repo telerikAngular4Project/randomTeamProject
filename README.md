@@ -1,4 +1,4 @@
-# randomTeamNameProject
+# theCheapBears
   ## Web Apps With Angular4 / Telerik Academy Course Project
 # These are old requirements --- they might be changed
 
