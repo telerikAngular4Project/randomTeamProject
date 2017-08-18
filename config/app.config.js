@@ -13,6 +13,11 @@ const config = (db, app) => {
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(session({
         secret: 'chain reaction',
+        resave: false,
+        saveUninitialized: false,
+        cookie: {
+            maxAge: 36000000,
+        },
         store: new MongoStore({
             db: db,
         }),

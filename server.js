@@ -7,11 +7,15 @@ const dataProm = dbProm
     });
 
 Promise.all([dbProm, dataProm])
-    .then((db, data) => {
-        return require('./app').init(db, data);
+    .then((values) => {
+        return require('./app').init(values[0], values[1]);
     })
     .then((app) => {
         app.listen(config.app.port, () => {
             console.log(`Server started at http://localhost:${config.app.port}`);
         });
+    })
+    .catch((err) => {
+        console.log(err);
     });
+
