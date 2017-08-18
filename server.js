@@ -1,11 +1,14 @@
 const config = require('./config');
+const dbProm = require('./data').init(config.db.connectionString);
 
-require('./data').init(config.db.connectionString)
+const dataProm = dbProm
     .then((db) => {
         return require('./data').initData(db);
-    })
-    .then((data) => {
-        return require('./app').init(data);
+    });
+
+Promise.all([dbProm, dataProm])
+    .then((db, data) => {
+        return require('./app').init(db, data);
     })
     .then((app) => {
         app.listen(config.app.port, () => {
